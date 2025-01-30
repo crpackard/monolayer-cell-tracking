@@ -1,0 +1,11 @@
+pytest==8.3.4
+btrack==0.6.5
+numpy==1.26.4
+pandas==2.1.1
+tqdm==4.67.0
+imageio==2.36.0
+matplotlib==3.9.2
+cellpose==3.1.0
+shapely==2.0.6
+opencv-python==4.11.0
+gdown

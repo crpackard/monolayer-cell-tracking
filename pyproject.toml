@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "monolayer-cell-tracking"
+version = "0.1.0"
+description = "Computer vision package for extracting cell trajectories from microscopy videos."
+authors = [{name = "Charles Packard", email = "charles.robert.packard@gmail.com"}]
+license = {text = "MIT"}
+dependencies = [
+    "btrack",
+    "numpy",
+    "pandas",
+    "tqdm",
+    "imageio",
+    "matplotlib",
+    "cellpose",
+    "shapely",
+    "opencv-python",
+    "gdown"
+]
+
+[project.urls]
+Homepage = "https://github.com/crpackard/monolayer-cell-tracking"
+Source = "https://github.com/crpackard/monolayer-cell-tracking"
+
+[tool.setuptools]
+packages = ["monolayer-cell-tracking"]
